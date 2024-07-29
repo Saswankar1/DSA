@@ -18,4 +18,4 @@ if all([isPositive(i) for i in storage]):
     else:
         print("False")
 else:
-    print("False")
+    print("It is False")
