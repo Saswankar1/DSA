@@ -20,13 +20,13 @@ class Solution(object):
 
         # Iterate over the Roman numeral string from left to right
         for char in s:
-            current_value = roman_to_int[char]
+            currentValue = roman_to_int[char]
             # If the current value is greater than the previous value, it means we encountered a subtractive combination
-            if current_value > prev_value:
+            if currentValue > prev_value:
                 # Subtract twice the previous value (since it was added once before)
-                total += current_value - 2 * prev_value
+                total += currentValue - 2 * prev_value
             else:
-                total += current_value
-            prev_value = current_value
+                total += currentValue
+            prev_value = currentValue
         
         return total
