@@ -9,6 +9,6 @@ for i in range(int(input())):
     else:
         VALUE += 1
 if VALUE != 0:
-    print('False')
+    print('false')
 else:
-    print('True')
+    print('true')
