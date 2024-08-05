@@ -17,3 +17,4 @@ class MyHTMLParser(HTMLParser):
 parser = MyHTMLParser()
 for _ in range(int(input())):
     parser.feed(input())
+    print("done")
